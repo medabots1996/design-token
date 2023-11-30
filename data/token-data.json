@@ -210,6 +210,106 @@
           "value": "#2a0a18",
           "type": "color"
         }
+      },
+      "cyan": {
+        "10": {
+          "value": "#e5f6ff",
+          "type": "color"
+        },
+        "20": {
+          "value": "#bae6ff",
+          "type": "color"
+        },
+        "30": {
+          "value": "#82cfff",
+          "type": "color"
+        },
+        "40": {
+          "value": "#33b1ff",
+          "type": "color"
+        },
+        "50": {
+          "value": "#1192e8",
+          "type": "color"
+        },
+        "60": {
+          "value": "#0072c3",
+          "type": "color"
+        },
+        "70": {
+          "value": "#00539a",
+          "type": "color"
+        },
+        "80": {
+          "value": "#003a6d",
+          "type": "color"
+        },
+        "90": {
+          "value": "#012749",
+          "type": "color"
+        },
+        "100": {
+          "value": "#061727",
+          "type": "color"
+        }
+      },
+      "purple": {
+        "10": {
+          "value": "#f6f2ff",
+          "type": "color"
+        },
+        "20": {
+          "value": "#e8daff",
+          "type": "color"
+        },
+        "30": {
+          "value": "#d4bbff",
+          "type": "color"
+        },
+        "40": {
+          "value": "#be95ff",
+          "type": "color"
+        },
+        "50": {
+          "value": "#a56eff",
+          "type": "color"
+        },
+        "60": {
+          "value": "#8a3ffc",
+          "type": "color"
+        },
+        "70": {
+          "value": "#6929c4",
+          "type": "color"
+        },
+        "80": {
+          "value": "#491d8b",
+          "type": "color"
+        },
+        "90": {
+          "value": "#31135e",
+          "type": "color"
+        },
+        "100": {
+          "value": "#1c0f30",
+          "type": "color"
+        }
+      }
+    },
+    "utility": {
+      "alert": {
+        "error": {
+          "value": "#da1e28",
+          "type": "color"
+        },
+        "success": {
+          "value": "#24a148",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#f1c21b",
+          "type": "color"
+        }
       }
     }
   },
