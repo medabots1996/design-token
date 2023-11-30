@@ -1,7 +1,5 @@
 {
-  "yds.global": {},
-  "yds.typography.english": {},
-  "yds.typography.japanese": {
+  "yds.global": {
     "common": {
       "neutral-gray": {
         "10": {
@@ -215,6 +213,8 @@
       }
     }
   },
+  "yds.typography.english": {},
+  "yds.typography.japanese": {},
   "yds.brand.yodobashi": {},
   "yds.brand.ishii": {},
   "yds.util.theme.light": {},
