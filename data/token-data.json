@@ -453,6 +453,34 @@
       }
     }
   },
+  "yds.brand.ishii": {
+    "brand": {
+      "color": {
+        "primary": {
+          "value": "{common.blue.60}",
+          "type": "color"
+        },
+        "primary-hover": {
+          "value": "{common.blue.50}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{common.blue.70}",
+          "type": "color"
+        },
+        "primary-focus": {
+          "value": "{common.blue.50}",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "{common.border-radius.medium}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
   "yds.util.theme.light": {
     "common": {
       "utility": {
@@ -460,6 +488,24 @@
           "disabled": {
             "disabled": {
               "value": "{common.neutral-gray.30}",
+              "type": "color"
+            },
+            "on-disabled": {
+              "value": "{common.neutral-gray.50}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "yds.util.theme.dark": {
+    "common": {
+      "utility": {
+        "state": {
+          "disabled": {
+            "disabled": {
+              "value": "{common.neutral-gray.80}",
               "type": "color"
             },
             "on-disabled": {
@@ -471,7 +517,6 @@
       }
     }
   },
-  "yds.util.theme.dark": {},
   "yds.component.action.button": {
     "component": {
       "action": {
@@ -496,6 +541,10 @@
             "disabled": {
               "value": "{common.utility.state.disabled.disabled}",
               "type": "color"
+            },
+            "border-radius": {
+              "value": "{brand.border-radius.default}",
+              "type": "borderRadius"
             }
           },
           "on-primary": {
@@ -530,6 +579,7 @@
       "yds.global",
       "yds.typography.english",
       "yds.brand.yodobashi",
+      "yds.brand.ishii",
       "yds.util.theme.light",
       "yds.util.theme.dark",
       "yds.component.action.button"
