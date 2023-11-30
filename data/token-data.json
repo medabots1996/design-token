@@ -294,6 +294,26 @@
           "value": "#1c0f30",
           "type": "color"
         }
+      },
+      "opacity": {
+        "density": {
+          "high": {
+            "value": "0.75",
+            "type": "opacity"
+          },
+          "medium": {
+            "value": "0.5",
+            "type": "opacity"
+          },
+          "light": {
+            "value": "0.25",
+            "type": "opacity"
+          },
+          "very-light": {
+            "value": "0.1",
+            "type": "opacity"
+          }
+        }
       }
     },
     "utility": {
