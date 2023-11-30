@@ -421,6 +421,18 @@
         "primary": {
           "value": "#d8102e",
           "type": "color"
+        },
+        "primary-hover": {
+          "value": "{common.red.50}",
+          "type": "color"
+        },
+        "primary-pressed": {
+          "value": "{common.red.70}",
+          "type": "color"
+        },
+        "primary-focus": {
+          "value": "{common.red.50}",
+          "type": "color"
         }
       },
       "border-radius": {
@@ -433,7 +445,32 @@
   },
   "yds.util.theme.light": {},
   "yds.util.theme.dark": {},
-  "yds.component.action.button": {},
+  "yds.component.action.button": {
+    "component": {
+      "action": {
+        "button": {
+          "primary": {
+            "enabled": {
+              "value": "{brand.color.primary}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{brand.color.primary-hover}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{brand.color.primary-pressed}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{brand.color.primary-focus}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
