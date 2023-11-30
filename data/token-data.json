@@ -314,6 +314,28 @@
             "type": "opacity"
           }
         }
+      },
+      "border-radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "medium": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "large": {
+          "value": "16",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "9999",
+          "type": "borderRadius"
+        }
       }
     },
     "utility": {
@@ -333,10 +355,82 @@
       }
     }
   },
-  "yds.typography.english": {},
-  "yds.typography.japanese": {},
-  "yds.brand.yodobashi": {},
-  "yds.brand.ishii": {},
+  "yds.typography.english": {
+    "common": {
+      "typography": {
+        "line-height": {
+          "body": {
+            "value": "135%",
+            "type": "lineHeights"
+          },
+          "title": {
+            "value": "125%",
+            "type": "lineHeights"
+          },
+          "heading": {
+            "value": "130%",
+            "type": "lineHeights"
+          },
+          "label": {
+            "value": "135%",
+            "type": "lineHeights"
+          }
+        },
+        "letter-spacing": {
+          "body": {
+            "value": "0.16",
+            "type": "letterSpacing"
+          },
+          "heading": {
+            "value": "-0.1",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "-0.16",
+            "type": "letterSpacing"
+          },
+          "label": {
+            "value": "0",
+            "type": "letterSpacing"
+          }
+        },
+        "font-weight": {
+          "body": {
+            "value": "Regular",
+            "type": "fontWeights"
+          },
+          "heading": {
+            "value": "Bold",
+            "type": "fontWeights"
+          },
+          "title": {
+            "value": "Bold",
+            "type": "fontWeights"
+          },
+          "label": {
+            "value": "Regular",
+            "type": "fontWeights"
+          }
+        }
+      }
+    }
+  },
+  "yds.brand.yodobashi": {
+    "brand": {
+      "color": {
+        "primary": {
+          "value": "#d8102e",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "default": {
+          "value": "{common.border-radius.none}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
   "yds.util.theme.light": {},
   "yds.util.theme.dark": {},
   "yds.component.action.button": {},
@@ -345,9 +439,7 @@
     "tokenSetOrder": [
       "yds.global",
       "yds.typography.english",
-      "yds.typography.japanese",
       "yds.brand.yodobashi",
-      "yds.brand.ishii",
       "yds.util.theme.light",
       "yds.util.theme.dark",
       "yds.component.action.button"
