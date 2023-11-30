@@ -352,6 +352,16 @@
           "value": "#f1c21b",
           "type": "color"
         }
+      },
+      "neutral": {
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        }
       }
     }
   },
@@ -443,7 +453,24 @@
       }
     }
   },
-  "yds.util.theme.light": {},
+  "yds.util.theme.light": {
+    "common": {
+      "utility": {
+        "state": {
+          "disabled": {
+            "disabled": {
+              "value": "{common.neutral-gray.30}",
+              "type": "color"
+            },
+            "on-disabled": {
+              "value": "{common.neutral-gray.60}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "yds.util.theme.dark": {},
   "yds.component.action.button": {
     "component": {
@@ -464,6 +491,32 @@
             },
             "focus": {
               "value": "{brand.color.primary-focus}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{common.utility.state.disabled.disabled}",
+              "type": "color"
+            }
+          },
+          "on-primary": {
+            "enabled": {
+              "value": "{utility.neutral.white}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{utility.neutral.white}",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "{utility.neutral.white}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{utility.neutral.white}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{common.utility.state.disabled.on-disabled}",
               "type": "color"
             }
           }
