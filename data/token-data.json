@@ -365,7 +365,67 @@
       }
     }
   },
-  "yds.typography.english": {
+  "yds.typography.jp": {
+    "common": {
+      "typography": {
+        "line-height": {
+          "body": {
+            "value": "150%",
+            "type": "lineHeights"
+          },
+          "title": {
+            "value": "135%",
+            "type": "lineHeights"
+          },
+          "heading": {
+            "value": "135%",
+            "type": "lineHeights"
+          },
+          "label": {
+            "value": "150%",
+            "type": "lineHeights"
+          }
+        },
+        "letter-spacing": {
+          "body": {
+            "value": "0",
+            "type": "letterSpacing"
+          },
+          "heading": {
+            "value": "0",
+            "type": "letterSpacing"
+          },
+          "title": {
+            "value": "0",
+            "type": "letterSpacing"
+          },
+          "label": {
+            "value": "0",
+            "type": "letterSpacing"
+          }
+        },
+        "font-weight": {
+          "body": {
+            "value": "Regular",
+            "type": "fontWeights"
+          },
+          "heading": {
+            "value": "Bold",
+            "type": "fontWeights"
+          },
+          "title": {
+            "value": "Bold",
+            "type": "fontWeights"
+          },
+          "label": {
+            "value": "Regular",
+            "type": "fontWeights"
+          }
+        }
+      }
+    }
+  },
+  "yds.typography.en": {
     "common": {
       "typography": {
         "line-height": {
@@ -524,6 +584,22 @@
             }
           }
         }
+      },
+      "neutral": {
+        "background": {
+          "background": {
+            "value": "{utility.neutral.white}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{common.neutral-gray.100}",
+            "type": "color"
+          },
+          "on-background-secondary": {
+            "value": "{common.neutral-gray.70}",
+            "type": "color"
+          }
+        }
       }
     }
   },
@@ -540,6 +616,22 @@
               "value": "{common.neutral-gray.60}",
               "type": "color"
             }
+          }
+        }
+      },
+      "neutral": {
+        "background": {
+          "background": {
+            "value": "{common.neutral-gray.90}",
+            "type": "color"
+          },
+          "on-background": {
+            "value": "{common.neutral-gray.10}",
+            "type": "color"
+          },
+          "on-background-secondary": {
+            "value": "{common.neutral-gray.40}",
+            "type": "color"
           }
         }
       }
@@ -601,17 +693,71 @@
       }
     }
   },
+  "yds.component.content": {
+    "component": {
+      "content": {
+        "card": {
+          "background": {
+            "value": "{common.neutral.background.background}",
+            "type": "color"
+          },
+          "content": {
+            "value": "{common.neutral.background.on-background}",
+            "type": "color"
+          },
+          "secondary-content": {
+            "value": "{common.neutral.background.on-background-secondary}",
+            "type": "color"
+          },
+          "card-heading": {
+            "value": {
+              "fontWeight": "{common.typography.font-weight.heading}",
+              "lineHeight": "{common.typography.line-height.heading}",
+              "letterSpacing": "{common.typography.letter-spacing.heading}"
+            },
+            "type": "typography"
+          },
+          "card-content": {
+            "value": {
+              "fontWeight": "{common.typography.font-weight.body}",
+              "lineHeight": "{common.typography.line-height.body}",
+              "letterSpacing": "{common.typography.letter-spacing.body}"
+            },
+            "type": "typography"
+          },
+          "card-label": {
+            "value": {
+              "fontWeight": "{common.typography.font-weight.label}",
+              "lineHeight": "{common.typography.line-height.label}",
+              "letterSpacing": "{common.typography.letter-spacing.label}"
+            },
+            "type": "typography"
+          },
+          "action-element": {
+            "value": "{brand.color.primary}",
+            "type": "color"
+          },
+          "border-radius": {
+            "value": "{brand.border-radius.default}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "yds.global",
-      "yds.typography.english",
+      "yds.typography.jp",
+      "yds.typography.en",
       "yds.brand.yodobashi",
       "yds.brand.ishii",
       "yds.brand.artsports",
       "yds.util.theme.light",
       "yds.util.theme.dark",
-      "yds.component.action.button"
+      "yds.component.action.button",
+      "yds.component.content"
     ]
   }
 }
